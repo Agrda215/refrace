@@ -12,7 +12,9 @@ print("Inputed:")
 inputed = input()
 
 def printing():
-    score += 1
+    score = score + 1
+    top = top + 2
+    bottom = bottom + 2
     print("Top:",top)
     print("Bottom:", bottom)
     print("Score:", score)
