@@ -2,6 +2,7 @@ score = 0
 highscore = 0
 top = 0
 bottom = 0
+i = 0
 
 print("Hello 4000 Scores! of Where Of Reface.")
 print("Whoah Here Based in here.")
@@ -25,3 +26,14 @@ if top >= int(inputed):
     printing()
 else:
     print("Whoah than ", top)
+
+# Automatticy Score Animation
+while i < 4000:
+    if top >= int(inputed):
+       score = score + 1
+       top = top + 2
+       bottom = bottom + 2
+       printing()
+       i += 1
+    else:
+       print("Whoah than ", top)
