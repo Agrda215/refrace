@@ -19,7 +19,7 @@ def printing():
     print("Inputed:")
     inputed = input()
 
-if top >= inputed:
+if top >= int(inputed):
     printing()
 else:
     print("Whoah than ", top)
