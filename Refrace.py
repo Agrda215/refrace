@@ -37,3 +37,11 @@ while i < 4000:
        i += 1
     else:
        print("Whoah than ", top)
+
+# Win but where 4000 Scores.
+if score > 4000:
+    print("You Win Get Resources but of year than 2022 You Be Created!")
+    print("You Are Maxium The 4 Digit Number be best: 9999.")
+    print("With pauses this while loop.")
+
+# Resources Be Of Than here 4000 score to finsh.
