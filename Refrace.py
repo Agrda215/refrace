@@ -1,6 +1,3 @@
-from _typeshed import Incomplete
-
-
 score = 0
 highscore = 0
 top = 0
