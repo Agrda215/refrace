@@ -12,9 +12,6 @@ print("Inputed:")
 inputed = input()
 
 def printing():
-    score = score + 1
-    top = top + 2
-    bottom = bottom + 2
     print("Top:",top)
     print("Bottom:", bottom)
     print("Score:", score)
@@ -22,6 +19,9 @@ def printing():
     inputed = input()
 
 if top >= int(inputed):
+    score = score + 1
+    top = top + 2
+    bottom = bottom + 2
     printing()
 else:
     print("Whoah than ", top)
